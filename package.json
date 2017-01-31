@@ -1,0 +1,20 @@
+{
+  "name": "react-redux-router-mongo-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate code to get right into building new sites with react, redux, router, mongo, express, and webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcbarnes/react-redux-router-mongo-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wcbarnes/react-redux-router-mongo-boilerplate/issues"
+  },
+  "homepage": "https://github.com/wcbarnes/react-redux-router-mongo-boilerplate#readme"
+}
