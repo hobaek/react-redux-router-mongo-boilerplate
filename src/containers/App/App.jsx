@@ -3,6 +3,8 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import Nav from '../Nav';
 
+const ACTION_CREATORS_NEED_TO_BE_IMPORTED = {};
+
 
 const App = props =>
   <div className="appContainer">
@@ -17,7 +19,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators(actionCreators, dispatch);
+  return bindActionCreators(ACTION_CREATORS_NEED_TO_BE_IMPORTED, dispatch);
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
